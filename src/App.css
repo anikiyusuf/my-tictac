@@ -1,0 +1,107 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:ital,wght@1,600&family=Epilogue:wght@500;700&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,900&family=Josefin+Sans:wght@400;700&family=Manrope:wght@600;800&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;700&family=Outfit:wght@600&family=Overpass:wght@400;600;700&family=Oxygen+Mono&family=Pacifico&family=Poppins:wght@600&family=Public+Sans:wght@700&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@900&family=Red+Hat+Text:wght@600&family=Roboto+Mono&family=Roboto:wght@700;900&family=Rubik:wght@400;500&family=Space+Mono:wght@700&family=Ubuntu:wght@700&display=swap'); 
+
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background: hsl(199, 32%, 15%);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    margin-top:2rem ;
+  }
+
+  .container-header{
+    display:flex;
+    padding:2rem;
+   
+  }
+
+.container-header > ul{
+    display: flex;
+    list-style: none;
+    
+  } 
+  .container > ul > li {
+    padding:2rem;
+    color: blue;
+  }
+    .listXe{
+    color:hsl(178, 59%, 48%);
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  .listOo{
+       color:hsl(39, 72%, 58%);
+       font-weight: 900;
+       font-size: 2rem;
+  }
+
+
+  .container-header > .main-button{
+    background-color:hsl(198, 36%, 18%);
+    box-shadow: 0 5px 1px hsl(199, 44%, 11%);
+    border-radius:0.3rem;
+    height: 2rem;
+    width:7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    color: aqua;
+    font-size: 1rem;
+    padding:.5rem;
+  }
+
+  .instruction {
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 16px;
+    color:white
+  }
+  
+  .reset {
+
+    width: 30px;
+    height: 25px;
+    background-color:hsl(198, 36%, 18%);;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 5px 1px  hsl(198, 36%, 18%);
+  }
+  
+  .board {
+    width: 208px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    border: none;
+    margin-top: -1.5rem;
+  }
+  
+  .square {
+    width: 65px;
+    height: 65px;
+    background-color:hsl(198, 36%, 18%);
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: hsl(178, 60%, 48%);
+    border-radius: .5rem;
+    box-shadow: 0 5px 1px hsl(199, 44%, 11%);
+  }
+  
